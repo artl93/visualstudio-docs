@@ -46,7 +46,7 @@ Welcome to a new way to install Visual Studio! In our newest version, we’ve ma
 
  Ready to install? We'll walk you through it, step-by-step. Let's get started.  
 
-## Install the installer  
+This ## Install the installer  
  When you download Visual Studio 2017 RC, you'll get a bootstrapper file that in turn installs our new lightweight installer. This new installer includes everything you need to customize your installation.  
 
 > [!IMPORTANT]
@@ -93,6 +93,9 @@ To install Visual Studio 2017 RC in a language of your choosing, click the **Lan
 
   > [!IMPORTANT]
   > While Visual Studio 2017 RC in general is supported for use in a production environment, those workloads and components that are marked "Preview" in the installation UI are not supported for use in a production environment.
+## Changing the installer Language
+By default, the installer program tries to match the language of the operating system when run for the first time. The installer will remember this setting. The setting can later be chagned by running the installer from the command line. For example, the user can force the installer to run in Englishby running **vs_installer.exe --locale en-US"**. This setting will then be remembered when the installer is run the next time. 
+The installer supports the following language tokens: zh-CN, zh-TW, cs-CZ, en-US, fr-FR, de-DE, it-IT, ja-JP, ko-KR, pl-PL, pt-BR, ru-RU, es-ES, and tr-TR. 
 
 ## See Also  
 * [Modify Visual Studio 2017 RC](modify-visual-studio.md)
